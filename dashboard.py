@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-bike_day_df = pd.read_csv(r"D:\Bangkit\tugas\Submission_Proyek_Analisis_Data\dataset\day.csv")
+bike_day_df = pd.read_csv("https://raw.githubusercontent.com/kusyairiihsan/Submission_Proyek_Analisis_Data/main/Submission_Proyek_Analisis_Data/dataset/day.csv")
 
 # Judul Dashboard
 st.title("Dashboard: Analisis Data Bike Sharing")
